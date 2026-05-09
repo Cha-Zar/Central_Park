@@ -1,0 +1,51 @@
+ Smart Agriculture
+     Central Park
+     Système de
+
+   Surveillance et
+Contrôle Intelligent
+Problématique :
+
+     L’agriculture nécessite une surveillance continue
+     Difficulté de contrôle manuel (humidité, température, gaz…)
+     Consommation excessive d’eau
+     Manque de suivi à distance
+Objectifs :
+
+       Mesurer les paramètres environnementaux
+       Automatiser l’irrigation
+       Détecter les gaz nocifs
+       Afficher les données localement( OLED )
+       Envoyer les données vers une plateforme web
+       Visualisation des courbes en temps réel
+diagramme bloc
+Composants matériels
+
+Microcontrôleur
+
+     ESP32
+     WiFi intégré
+     Bluetooth
+     ADC 12 bits
+     Faible consommation
+   Capteurs utilisés               2. Capteur d’humidité du sol          3. MQ135 (Capteur de gaz)
+                                   Rôle :                                Rôle :
+1. DHT11 (Température & Humidité)  Détecter le niveau d’humidité du sol  Détection de gaz nocifs (NH3, CO2…)
+                                   Sortie :                              Sortie :
+Rôle :                             Analogique (0–4095)                   Analogique
+Mesure température ambiante        Utilisé pour :                        Permet :
+Mesure humidité de l’air           Activer la pompe automatiquement      Activation ventilation
+Caractéristiques :
+Alimentation : 3.3–5V
+Température : 0–50°C
+Humidité : 20–90%
+
+4. LDR (Lumière)                   5-capteur niveau d’’eau
+Rôle :                                        HW-038
+Mesurer intensité lumineuse
+Actionneurs :
+
+ventilateur    pompe à eau  valve d’eau intelligente
+Plateforme Web de Monitoring
+merci .
+

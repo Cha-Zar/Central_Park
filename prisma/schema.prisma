@@ -1,0 +1,141 @@
+// prisma/schema.prisma
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Device {
+  id        String   @id @default(cuid())
+  name      String
+  type      String   // "master" or "slave"
+  macAddress String  @unique
+  location  String
+  isActive  Boolean  @default(true)
+  
+  // Relations
+  sensorData     SensorData[]
+  actuatorStatus ActuatorStatus[]
+  commands       Command[]
+  alerts         Alert[]
+  settings       Settings?
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  @@index([type])
+  @@index([isActive])
+  @@index([createdAt])
+}
+
+model SensorData {
+  id        String   @id @default(cuid())
+  
+  // Sensor readings (from ESP32_MASTER)
+  temperature   Float      // DHT11
+  humidity      Float      // DHT11
+  airQuality    Float      // MQ135 (0-4095)
+  light         Float      // LDR (0-100%)
+  waterLevel    Float      // WATER sensor (0-100%)
+  soilMoisture  Float      // SOIL sensor (0-100%)
+  vpd           Float      // Vapor Pressure Deficit (calculated)
+  healthScore   Int        // 0-100
+  
+  // Relations
+  deviceId  String
+  device    Device   @relation(fields: [deviceId], references: [id], onDelete: Cascade)
+  
+  createdAt DateTime @default(now())
+  
+  @@index([deviceId])
+  @@index([createdAt])
+  @@index([healthScore])
+}
+
+model ActuatorStatus {
+  id        String   @id @default(cuid())
+  
+  // Actuator states (from ESP32_SLAVE)
+  fanSpeed          Int      @default(0)     // 0-100% (FAN PWM pin 25)
+  lightIntensity    Int      @default(0)     // 0-100% (LIGHT PWM pin 26)
+  pumpState         Boolean  @default(false) // ON/OFF (PUMP pin 27)
+  waterValveOpen    Boolean  @default(false) // OPEN/CLOSE (VALVE servo pin 18)
+  
+  // Relations
+  deviceId  String   @unique
+  device    Device   @relation(fields: [deviceId], references: [id], onDelete: Cascade)
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  @@index([deviceId])
+  @@index([updatedAt])
+}
+
+model Command {
+  id        String   @id @default(cuid())
+  
+  // Command details
+  action         String   // "water", "fan", "light"
+  duration       Int?     // in seconds for water
+  value          Int?     // speed or intensity (0-100)
+  status         String   @default("pending") // "pending", "executing", "completed", "failed"
+  
+  // Relations
+  deviceId  String
+  device    Device   @relation(fields: [deviceId], references: [id], onDelete: Cascade)
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  @@index([deviceId])
+  @@index([status])
+  @@index([createdAt])
+}
+
+model Alert {
+  id        String   @id @default(cuid())
+  
+  // Alert details
+  type       String   // "temperature", "humidity", "soilMoisture", "light", "airQuality", "health"
+  severity   String   @default("info") // "info", "warning", "critical"
+  message    String
+  resolved   Boolean  @default(false)
+  
+  // Relations
+  deviceId   String
+  device     Device   @relation(fields: [deviceId], references: [id], onDelete: Cascade)
+  
+  createdAt  DateTime @default(now())
+  resolvedAt DateTime?
+  
+  @@index([deviceId])
+  @@index([severity])
+  @@index([resolved])
+  @@index([createdAt])
+}
+
+model Settings {
+  id        String   @id @default(cuid())
+  
+  // Plant configuration
+  plantType           String   @default("generic")
+  humidityTarget      Float    @default(60.0)
+  lightTarget         Float    @default(500.0)   // lux
+  temperatureMin      Float    @default(18.0)
+  temperatureMax      Float    @default(28.0)
+  vpdTarget           Float    @default(1.0)
+  soilMoistureMin     Float    @default(30.0)
+  
+  // Device association
+  deviceId  String   @unique
+  device    Device   @relation(fields: [deviceId], references: [id], onDelete: Cascade)
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  @@index([deviceId])
+}

@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "author": "Codex",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 80, "left": 40, "attrs": {} },
+    { "type": "wokwi-lcd1602", "id": "lcdSensors", "top": -130, "left": 350, "attrs": { "pins": "i2c", "i2cAddress": "0x27", "background": "green", "color": "black" } },
+    { "type": "wokwi-lcd1602", "id": "lcdActuators", "top": 0, "left": 350, "attrs": { "pins": "i2c", "i2cAddress": "0x3f", "background": "green", "color": "black" } },
+    { "type": "wokwi-dht22", "id": "dht", "top": -120, "left": -210, "attrs": { "temperature": "24.5", "humidity": "65" } },
+    { "type": "wokwi-photoresistor-sensor", "id": "ldr", "top": 40, "left": -250, "attrs": { "lux": "650" } },
+    { "type": "wokwi-gas-sensor", "id": "mq", "top": 180, "left": -250, "attrs": { "ppm": "400" } },
+    { "type": "wokwi-potentiometer", "id": "soilPot", "top": 335, "left": -230, "attrs": { "value": "520" } },
+    { "type": "wokwi-potentiometer", "id": "waterPot", "top": 440, "left": -230, "attrs": { "value": "780" } },
+    { "type": "wokwi-led", "id": "fanLed", "top": 170, "left": 650, "attrs": { "color": "green", "label": "FAN" } },
+    { "type": "wokwi-led", "id": "pumpLed", "top": 250, "left": 650, "attrs": { "color": "green", "label": "PUMP" } },
+    { "type": "wokwi-led", "id": "valveLed", "top": 330, "left": 650, "attrs": { "color": "green", "label": "VALVE" } },
+    { "type": "wokwi-led", "id": "lightLed", "top": 410, "left": 650, "attrs": { "color": "green", "label": "LIGHT" } },
+    { "type": "wokwi-led", "id": "alarmLed", "top": 500, "left": 650, "attrs": { "color": "red", "label": "ALARM" } },
+    { "type": "wokwi-resistor", "id": "rFan", "top": 185, "left": 570, "attrs": { "value": "4700" } },
+    { "type": "wokwi-resistor", "id": "rPump", "top": 265, "left": 570, "attrs": { "value": "4700" } },
+    { "type": "wokwi-resistor", "id": "rValve", "top": 345, "left": 570, "attrs": { "value": "4700" } },
+    { "type": "wokwi-resistor", "id": "rLight", "top": 425, "left": 570, "attrs": { "value": "4700" } },
+    { "type": "wokwi-resistor", "id": "rAlarm", "top": 515, "left": 570, "attrs": { "value": "4700" } }
+  ],
+  "connections": [
+    [ "uno:5V", "lcdSensors:VCC", "red", [] ],
+    [ "uno:GND.1", "lcdSensors:GND", "black", [] ],
+    [ "uno:A4", "lcdSensors:SDA", "green", [] ],
+    [ "uno:A5", "lcdSensors:SCL", "blue", [] ],
+    [ "uno:5V", "lcdActuators:VCC", "red", [] ],
+    [ "uno:GND.1", "lcdActuators:GND", "black", [] ],
+    [ "uno:A4", "lcdActuators:SDA", "green", [] ],
+    [ "uno:A5", "lcdActuators:SCL", "blue", [] ],
+
+    [ "uno:5V", "dht:VCC", "red", [] ],
+    [ "uno:GND.1", "dht:GND", "black", [] ],
+    [ "uno:2", "dht:SDA", "green", [] ],
+
+    [ "uno:5V", "ldr:VCC", "red", [] ],
+    [ "uno:GND.1", "ldr:GND", "black", [] ],
+    [ "uno:A0", "ldr:AO", "green", [] ],
+
+    [ "uno:5V", "mq:VCC", "red", [] ],
+    [ "uno:GND.1", "mq:GND", "black", [] ],
+    [ "uno:A1", "mq:AO", "green", [] ],
+
+    [ "uno:5V", "soilPot:VCC", "red", [] ],
+    [ "uno:GND.1", "soilPot:GND", "black", [] ],
+    [ "uno:A2", "soilPot:SIG", "green", [] ],
+
+    [ "uno:5V", "waterPot:VCC", "red", [] ],
+    [ "uno:GND.1", "waterPot:GND", "black", [] ],
+    [ "uno:A3", "waterPot:SIG", "green", [] ],
+
+    [ "uno:3", "rFan:1", "green", [] ],
+    [ "rFan:2", "fanLed:A", "green", [] ],
+    [ "fanLed:C", "uno:GND.2", "black", [] ],
+
+    [ "uno:4", "rPump:1", "green", [] ],
+    [ "rPump:2", "pumpLed:A", "green", [] ],
+    [ "pumpLed:C", "uno:GND.2", "black", [] ],
+
+    [ "uno:5", "rValve:1", "green", [] ],
+    [ "rValve:2", "valveLed:A", "green", [] ],
+    [ "valveLed:C", "uno:GND.2", "black", [] ],
+
+    [ "uno:6", "rLight:1", "green", [] ],
+    [ "rLight:2", "lightLed:A", "green", [] ],
+    [ "lightLed:C", "uno:GND.2", "black", [] ],
+
+    [ "uno:7", "rAlarm:1", "green", [] ],
+    [ "rAlarm:2", "alarmLed:A", "green", [] ],
+    [ "alarmLed:C", "uno:GND.2", "black", [] ]
+  ],
+  "serialMonitor": {
+    "display": "terminal",
+    "newline": "lf"
+  }
+}

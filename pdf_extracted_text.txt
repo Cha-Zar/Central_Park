@@ -1,0 +1,1547 @@
+Faculté des Sciences de Tunis
+   Module Réseaux sans fil
+
+Chapitre 1 : Introduction aux
+        réseaux sans fil
+
+          Essid Chaker
+           2025/2026
+LES RÉSEAUX SANS FIL
+
+                                      Essid Chaker- Les réseaux sans fil
+Essid Chaker- Les réseaux sans fil
+    FACULTE DES SCIENCES DE TUNIS
+Département des Sciences de l’Informatique
+
+Chapitre II Réseaux cellulaires
+
+                                 A.U. 2025-2026  1
+Les réseaux
+ Cellulaires
+
+Dr. Essid Chaker  2
+Dr. Essid Chaker  3
+Introduction
+
+Dr. Essid Chaker  4
+Historique
+
+■ 1876: Graham Bell invente le téléphone
+■ 1965: service téléphonique par l’intermédaire du premier
+
+    satellites des télécommunications (Intelsat I) avec les
+    Etats unis.
+■ 1978: Introductions du réseau national de téléphone
+    mobiles (natel c) en suisse.
+■ 1987: Lancement du réseau numériques a intégration de
+    services RNIS (ISDN).
+■ 1999: Premier réseau de téléphonie mobile couvrant toute
+    la surface terrestre.
+
+Dr. Essid Chaker  5
+■ Les réseaux de communication sont à l’origine des réseaux
+   fixes dans lesquels le transport de l’information est assuré
+   via des supports de transmission (filaires, hertzienne ou
+   satellitaires). Exemple : la téléphonie fixes.
+
+■ Dans les systèmes mobiles on distingue les systèmes
+   cellulaires, sans fils, radio messagerie etc. Ces systèmes
+   deviennent de plus en plus importants dans la vie des
+   particuliers ainsi que des entreprises.
+
+Dr. Essid Chaker                                                 6
+Réseaux fixes et mobiles
+
+Transmission radio:
+
+L'utilisation du spectre radio pour les télécommunications est réglementée:
+• Spectre radio obtenu auprès des (UIT): (Union Internationale de
+
+    Télécommunications).
+Le spectre radio est nécessaire au fonctionnement d'un système radio mobile.
+• Il remplace le support dans les réseaux fixes.
+
+Dr. Essid Chaker          7
+Dr. Essid Chaker  8
+Dr. Essid Chaker  9
+Dr. Essid Chaker  10
+Réseaux mobiles
+        GSM
+
+Dr. Essid Chaker  11
+Dr. Essid Chaker  12
+GSM : les objectifs
+
+■ Offrir des services de télécommunications compatibles avec ceux des
+    réseaux fixes.
+
+■ Offrir des services spécifiques dus à la mobilité des usagers.
+
+■ Assurer la compatibilité d’accès à n’importe quel utilisateur dans
+    n’importe quel pays exploitant le système GSM.
+
+■ Assurer la localisation automatique des mobiles sous la couverture
+    globale de l’ensemble des réseaux.
+
+■ Permettre une grande variété de terminaux mobiles.
+
+■ Obtenir une bonne efficacité spectrale.
+
+■ Obtenir des coûts permettant d’assurer le succès du service.
+
+Dr. Essid Chaker     13
+Dr. Essid Chaker  14
+Dr. Essid Chaker  15
+Dr. Essid Chaker  16
+Dr. Essid Chaker  17
+Dr. Essid Chaker  18
+Dr. Essid Chaker  19
+Dr. Essid Chaker  20
+Dr. Essid Chaker  21
+Dr. Essid Chaker  22
+Dr. Essid Chaker  23
+Dr. Essid Chaker  24
+Dr. Essid Chaker  25
+Dr. Essid Chaker  26
+Dr. Essid Chaker  27
+Dr. Essid Chaker  28
+Dr. Essid Chaker  29
+Dr. Essid Chaker  30
+Dr. Essid Chaker  31
+Dr. Essid Chaker  32
+Dr. Essid Chaker  33
+Dr. Essid Chaker  34
+Dr. Essid Chaker  35
+Dr. Essid Chaker  36
+Dr. Essid Chaker  37
+Le GSM et les Ondes Radios
+
+■ 2 normes: Deux bandes de fréquences sont utilisées
+
+ GSM (900MHZ) et DCS (1800MHZ)
+
+■ Chaque bande est divisée en deux sous-bandes:
+
+      ■ Transfert d’informations entre le mobile et la station de base (
+
+           voie montante)
+
+      ■ L’autre pour la liaison entre la station de base et le mobile (
+
+           voie descendante ):
+
+■ En Tunisie:
+
+      ■ TT ( Tunisie Télécom)
+      ■ Orange
+
+Dr. Essid Chaker                                                          38
+Appels entre réseau GSM et réseaux fixes
+
+■ Appel d’un abonné GSM vers un abonné réseau fixe :
+1. Un abonné GSM compose le numéro de téléphone d’un abonné du réseau fixe :
+
+      Sa demande arrive d’abord au BTS de la cellule puis passe à travers le BSC et arrive enfin au MSC
+      qui vérifie les droits de l’abonné (autorisation d’accéder à ce service, état de l’abonnement, . . .).
+
+     Si l’abonné remplit les conditions, le MSC transmet l’appel au réseau public et demande au BSC de
+      réserver un canal pour la communication. Il ne reste alors plus qu’à attendre que le poste fixe soit
+      décroché pour que la communication soit établie.
+■ Appel d’un abonné réseau fixe vers un abonné GSM:
+
+     Le fonctionnement est un plus complexe car l’opérateur GSM n’alloue des ressources à un abonné
+      que lorsque celui reçoit ou émet un appel.
+
+     Le numéro composé sur le poste fixe est tout d’abord aiguillé vers le réseau de l’abonné
+      GSM. La demande de connexion est interprétée par un commutateur passerelle entrant du
+      réseau GSM –il s’agit d’un GMSC.
+     Le numéro formé par l’abonné du réseau fixe n’est pas utilisé tel quel pour commuter la
+      communication. À l’instar des numéros verts ou des numéros d’urgence, il y a un mécanisme qui,
+      au droit du GMSC, va convertir le numéro de l’abonné en un autre numéro attribué
+      dynamiquement en fonction de la position de l’utilisateur. C’est sur base de ce numéro dynamique
+      que l’appel sera re-dirigé dans le réseau GSM.
+
+Dr. Essid Chaker                          39
+. Concrètement, le HLR est interrogé afin de connaître la position de l’utilisateur du réseau mobile ainsi que
+     son état (libre, occupé, éteint).
+
+Si le mobile est dans l’état “libre”, le réseau interroge alors le VLR de la zone pour savoir dans quelle
+     cellule le mobile se situe. Ainsi, le BSC de la zone demande aux différentes stations de base de sa
+     zone de diffuser un avis d’appel.
+
+Comme le mobile est “libre”, le destinataire écoute le réseau et s’aperçoit qu’on tente de le joindre et la
+     sonnerie du terminal est activée.
+
+Une fois que l’utilisateur a décroché, un canal de communication est alloué à l’appel et les bases de
+     données VLR et HLR sont mises à jour.
+
+Dr. Essid Chaker  40
+Dr. Essid Chaker  41
+Dr. Essid Chaker  42
+■ Comme chaque canal fréquentiel est utilisé pour une communication à une largeur de
+     bande de 200 kHz, cela laisse la place pour 124 canaux fréquentiels à répartir entre les
+     différents opérateurs. Mais, le nombre d’utilisateurs augmentant, il s’est avéré
+     nécessaire d’attribuer une bande supplémentaire aux alentours des 1800 MHz.
+
+■ On a donc porté la technologie GSM 900 MHz vers une bande ouverte à plus haute
+     fréquence. C’est le système DCS-1800 (Digital Communication System) dont les
+     caractéristiques sont quasi identiques au GSM en termes de protocoles et de services.
+     Les communications montantes se faisant alors entre 1710 et 1785 MHz et les
+     communications descendantes entre 1805 et 1880 M H Z.
+
+■ n est le nombre des canaux, Chaque porteuse GSM ou DCS est identifiée de manière
+     unique par un numéro n, désigné par le sigle ARFCN, codé sur 10 bits.
+
+■ La répartition des fréquences entre les différents opérateurs n’est pas figée mais est
+     amenée à évoluer au cours du temps suivant le degré de saturation des cellules en
+     environnement urbain.
+
+Dr. Essid Chaker  43
+GSM 900 et DCS-1800
+
+Dr. Essid Chaker     44
+   Capacité théorique du réseau
+
+Voie montante GSM:
+
+■ Bande disponible 915 – 890 MHz = 25 MHz
+■ Sous Bandes disponibles 25 / 0,2 = 125 bandes
+■ Nb intervalle de temps 125x8 IT =1000
+■ soit environ 1000 utilisateurs simultanés par zone
+
+Dr. Essid Chaker                                      45
+Dr. Essid Chaker  46
+Dr. Essid Chaker  47
+Dr. Essid Chaker  48
+■ Les réseaux cellulaires sont en général basés sur des motifs (clusters).
+
+      ■ Plus on réduit le nombre de cellules dans le motif, plus on augmente le nombre de
+          canaux par cellule donc le trafic est augmenté.
+
+      ■ Mais plus on réduit la distance D de réutilisation plus les interférences sont
+          importantes.
+
+■ D’où un compromis à trouver
+
+Dr. Essid Chaker  49
+Dr. Essid Chaker  50
+Dr. Essid Chaker  51
+Dr. Essid Chaker  52
+Dr. Essid Chaker  53
+Dr. Essid Chaker  54
+Dr. Essid Chaker  55
+commutation de circuits
+
+■ Dans la commutation de circuits, un chemin dit commuté est
+
+établi au début de la communication depuis la source
+
+(l'appelant) jusqu’à la destination (l’appelé) et une capacité de
+
+transmission [par ex. un canal de 3,1 kHz ou de 64 kbits/s pour
+
+une communication téléphonique  est allouée pendant toute
+
+la durée de la communication.
+
+■ A la fin de la communication, le chemin est libéré.
+
+■ La facturation est donc faite sur la base de la durée de
+    reservation
+
+Dr. Essid Chaker                                                   56
+       commutation par paquets
+
+■ Dans la commutation par paquets, l'information à transmettre (en
+   l'occurrence des données: bits, octets) est envoyée sous forme de
+   messages de taille limitée appelé paquet.
+
+■ Chaque paquet est transmis de noeud en noeud selon un mode
+   "store and forward" en utilisant une capacité de transmission
+   entre 2 noeuds qui est disponible à ce moment.
+
+■ Cette capacité de transmission n'est donc pas assignée à une
+   communication spécifique mais est utilisée par les paquets de
+   plusieurs communications simultanément en cours.
+
+Dr. Essid Chaker  57
+Dr. Essid Chaker  58
+  Évolution du GSM vers GPRS (1)
+
+Évolution du BSS :
+
+■ Remplacement/upgrade d’éléments existants: BTS, BSC, network
+    planning,
+
+■ Nouveaux éléments: PCU (Packet Controller Unit).
+
+Évolution du NSS :
+
+■ Un GSS ou NSS dédié au GPRS: réseau utilisant IP, noeuds
+■ réseaux paquet (SGSN, GGSN), équipements Internet (routeurs,
+
+    serveurs DNS, Firewalls,…)
+■ Évolution des éléments du réseau : HLR, MSC/VLR.
+
+Dr. Essid Chaker  59
+  Évolution du GSM vers GPRS (2)
+
+■ Nombreuses nouvelles interfaces de signalisation avec les
+    sous-systèmes existants.
+
+■ Évolution du Billing (exemple : tarification au volume).
+■ Nouveaux Mobiles (classes A, B et C).
+■ Approche marketing orientée “services”.
+
+Dr. Essid Chaker  60
+GGSN (Gateway GPRS Support Node)
+
+■ Routage : routeur IP qui supporte le routage dynamique ou
+   statique
+
+■ Sécurité : inclus des firewalls pour le filtrage des paquets
+   provenant des réseaux IP extérieurs.
+
+■ Passerelle : permet la connexion à d’autres réseaux IP ou
+   GPRS.
+
+■ Gestion de mobilité : permet le routage des paquets vers les
+   SGSNs des utilisateurs, en fonction de leur mobilité.
+
+■ Gestion des sessions : à chaque session, le GGSN alloue une
+   adresse IP au mobile.
+
+■ Facturation : en fonction du volume d’information et de la
+   durée de la session (attachement, durée de contexte PDP
+   actif).
+
+Dr. Essid Chaker                  61
+         SGSN (Serving GPRS Support Node)
+
+■ Routage: routeur IP qui supporte le routage dynamique ou
+    statique
+
+■ Sécurité: chiffre les communications à destination ou en
+    provenance des mobiles
+
+■ Gestion de mobilité : utilisation des zones de routage (routing
+    areas). Gestion du handover entre BSCs et autres SGSNs.
+
+■ Authentification: lors des Attach et mise-à-jour de inter- SGSN.
+■ Gestion des sessions: à chaque session, le SGSN active un
+
+    contexte PDP (Packet Data Protocol).
+■ Facturation : en fonction du volume d’information et de la durée
+
+    de la session (attachement, durée de contexte PDP actif).
+■ SMS : supporte l’interface Gd pour les communications avec le
+
+    SMS-GMSC et le SMS-IWMSC
+
+Dr. Essid Chaker                                                    62
+Dr. Essid Chaker  63
+Dr. Essid Chaker  64
+Dr. Essid Chaker  65
+    EDGE
+
+l’EDGE (Enhanced Data rates for GSM Evolution):
+■ Utilisation d’une modulation plus éfficace (8-PSK)
+■ Multiplication du débit par 3 mais sur une couverture plus réduite
+(69,2kbit/s par intervalle de temps au lieu de 22,8)
+■ Débits prévus: jusqu’à 384 kbit/s pour piétons (microcellules) et véhicules
+
+    lents.
+■ Jusqu’à 144 kbit/s pour véhicules rapides.
+■ Réseau de transition entre le GPRS et l’UMTS, permettant une
+
+    augmentation de débit grâce à une modulation à 8 états au lieu de 2 pour
+    le GMSK.
+
+Dr. Essid Chaker  66
+• Il servira de roue de secours aux opérateurs n’ayant pas pu avoir la licence
+ UMTS.
+
+• EDGE a l’avantage d’être nettement moins cher que l’UMTS puisqu’il ne
+ nécessite pas l’installation de nouveaux équipements : il s’appuie totalement
+ sur les réseaux existants (GSM et GPRS)
+
+Dr. Essid Chaker  67
+Dr. Essid Chaker  68
+Réseau 3G
+ (UMTS)
+Plan
+
+⚫ Introduction
+⚫ L’évolution Technologie
+⚫ Le réseau 3G
+⚫ Architecture UMTS
+⚫ Les composants de réseau d’accès
+⚫ Les applications UMTS
+⚫ Avantages & Inconvénients de UMTS
+⚫ Conclusion
+  Introduction : Histoire de la téléphonie mobile
+
+⚫ Années 70 : 1G AMPS aux Etats-Unis ainsi qu'en Europe norme
+   NMT (Nordic Mobile Téléphone) (basées sur la technologie FDMA
+   autour de la bande 400Mhz)
+
+⚫ Années 90: 2G explosion des normes numériques avec un rôle
+   prépondérant de l'Europe et du GSM
+
+⚫ 2.5 G Ajout de la transmission de données sous forme de paquet
+   avec le GPRS ,3G Début des travaux de l'ITU sur la troisième
+   génération.
+
+⚫ Années 2000 : 2.75 G augmentation du débit avec l'EDGE qui
+   change essentiellement la modulation
+
+⚫ 2.99 G Edge Evolution avec une nouvelle modulation (16/32/64
+   QAM) et des optimisations radios comme la réception sur 2
+   fréquences (Multi Carriers)
+
+⚫ 3 G Fin du rêve d'universalité de l'IMT2000 avec 6 systèmes
+   proposés pour la version Terrestrial
+L’évolution Technologie
+L’évolution de débit
+Systèmes 3G - Besoins
+
+❑ Hauts débits (allant jusqu’à 2 Mbit/s)
+❑ Débits variable (bande passante à la demande)
+❑ Multiplexage de services ayant une QoS différentes ( voix, vidéo, données, etc.)
+
+   sur une même connexion
+
+❑ Contraintes délais différentes selon les services (délais faibles pour les services
+   temps réel, plus importants et variables (best effort) pour certains services de
+   données)
+
+❑ Qualité adaptable (d’un taux d’erreur trame de 10% à un taux d’erreur bit de 10-6)
+❑ Support de trafic uplink et downlink asymétriques
+❑ Handovers inter-systèmes (pour des raisons de continuité de couverture ou de
+
+   partage de charge)
+
+❑ Forte efficacité spectrale
+           Le réseau UMTS
+
+  UMTS = Système de télécommunications
+  mobiles Universelles
+   Technologies 3G
+   Basée sur la technologie W-CDMA
+  Standardisée par le 3GPP
+
+    Fonctionne sur la bande de fréquences
+  1900-2000 MHz
+  un débit réel de l’ordre de 384 Kbits/s
+(8 fois plus rapide que le GPRS).
+
+                                          Prpoposée par Essid Chaker 2015
+Architecture de UMTS
+       Réseau d’accès UTRAN
+
+⚫ Transfert des données générées par l’usager en étant une
+   passerelle entre l’UE et le réseau cœur.
+
+⚫ Cependant, il est chargé d’autres fonctions :
+- Sécurité : Il permet la confidentialité et la protection des
+
+   informations échangées par l’interface radio en utilisant
+   des algorithmes de chiffrement et d’intégrité.
+- Mobilité : Une estimation de la position géographique est
+   possible à l’aide du réseau d’accès UTRAN.
+- Gestion des ressources radio : Le réseau d’accès est chargé
+   d’allouer et de maintenir des ressources radio nécessaires
+   à la communication.
+
+                                            Prpoposée par Essid Chaker 2015
+Les composants de réseau d’accès
+
+NodeB:
+Le rôle principal du NodeB est d’assurer les fonctions de
+
+  réception et de transmission radio pour une ou plusieurs
+  cellules du réseau d’accès de l’UMTS avec un équipement
+  usager. Le NodeB travaille au niveau de la couche physique du
+  modèle OSI (codage et décodage).
+RNC :
+Le rôle principal du RNC est de router les communications entre
+  le NodeB et le réseau cœur de l’UMTS.
+L’UTRAN est composé de 4 interfaces radios qui permettent
+   de faire dialoguer entre eux des équipements fournis par
+   des constructeurs différents
+
+⚫ Uu : qui permet au mobile de communiquer avec
+   l’UTRAN
+
+⚫ Iu: qui permet au RNC de communiquer avec le
+   MSC/VLR ou SGSN
+
+⚫ Iur : qui permet à deux RNC de communiquer
+⚫ Iub: qui permet la communication entre le nœud B et le
+
+   contrôleur de stations de base ou RNC
+Le réseau cœur de l’UMTS
+
+Le domaine du réseau cœur peut se diviser en deux sous
+réseaux:
+le domaine à commutation de circuits (CS) : qui est mieux adapté
+pour la transmission de la voix et pour les services de type temps
+réel.
+
+                                                                MSC(Mobile
+                                                                   services
+                                                                  Switching
+                                                                   Center)
+
+              Le
+           domaine
+
+              CS
+
+Le VLR              Le GMSC
+(Visitor            (Gateway
+Location
+Register)             MSC)
+⚫ le domaine à commutation de paquets (PS) : qui assure la
+   connexion aux réseaux utilisant le protocole IP et aux
+   réseaux X.25. Il est plus approprié à la transmission de
+   données.
+
+                                                     Le
+                                                 domaine
+
+                                                     PS
+
+   Le GGSN         Le SGSN
+(Gateway GPRS   (Serving GPRS
+ Support Node)  Support Node)
+Les applications UMTS
+
+                   Prpoposée par Essid Chaker 2015
+Les avantages de L’UMTS
+
+    Accès Internet                 Télévision
+haut-débit depuis un
+ équipement mobile
+
+ ou un ordinateur
+
+                      Visiophonie
+Les inconvénients de l’UMTS
+
+Coût                        Arrivée du
+                            HSDPA
+
+      Changement des
+        équipements
+           usagers
+Conclusion
+
+⚫ Evolution des réseaux de téléphonie mobile très rapide
+⚫ De plus en plus axés sur le transfert de données de
+
+   grandes tailles
+HSDPA & HSDPA++(HSUPA)
+
+Proposée par Essid Chaker  19
+PLAN                                           Proposée
+                                               par Essid
+❑ Introduction
+❑ HSDPA                                          Chaker
+❑ les mécanismes de la technique HSDPA
+❑ Les canaux utilisé par HSDPA
+❑ Le système HSDPA- transmission de données
+❑ Les principales améliorations de HSDPA
+❑ HSUPA
+❑ Les opérateur de technologie HSDPA
+❑ Avantage HSDPA HSUPA
+❑ Conclusion et perspective
+
+                                           20
+Intoduction
+
+⚫ la tâche de produire des normes 3G basé sur WCDMA. En 2000, une étude
+    de faisabilité a été réalisée dans le cadre.
+     des activités de normalisation 3GPP Rel-4, dont l'objectif était d'identifier
+    les techniques possibles pour améliorer la capacité. Cet effort a abouti à
+    l'approbation d'un gamme d'améliorations dans le cadre du 3GPP Rel-5 qui
+    ont été collectivement notée HSDPA (haut débit Downlink Packet Access).
+
+⚫ Avec l'avènement des numéros de services interactifs, où le contenu est
+    générée au lieu d'augmenter utilisé par l'utilisateur final (qui est attesté par
+    l'émergence de services tels que les blogs et podcasting), est venu la
+    nécessité de répondre à l'amélioration des capacités d'utilisation de la liaison
+    montante. La fonction 3GPP Rel-6 appelé «Enhanced FDD Uplink », plus
+    communément connu sous le nom HSUPA (haut débit Uplink Packet
+    Access) se attaque à cette exigence.
+
+Proposée par Essid Chaker 21
+HSDPA
+
+  ⚫ HSDPA(High-Speed Downlink Packet Access) représente
+      pour les technologies WCDMA et UMTS ce que la
+      technologie EDGE représente pour le GSM en termes de
+      vitesse de transmission et de capacité. Les débits 3G actuels
+      en flux descendant (environ 384 Kbps, et jusqu’à 2 Mbps
+      selon les normes) seront portés à 14 Mbps (débit maximal
+      selon les normes) sur les systèmes HSDPA de première
+      génération.
+
+  ⚫ Les opérateurs pourront ainsi prendre en charge un nombre
+      beaucoup plus important d’abonnés haut débit sur la même
+      fréquence radio (porteuse), et garantir à ces derniers une
+      utilisation optimale des services multimédias existants ou à
+      venir.
+
+Proposée par Essid Chaker 22
+⚫ La technique de modulation et de codage adaptatifs AMC
+   (Adaptative Modulation and Coding).
+
+⚫ La méthode de retransmission hybride rapide appelée
+   H-ARQ (Hybrid Automatic Repeat request).
+
+⚫ Les algorithmes d'ordonnancement rapide de paquets
+   (Fast Packet Scheduling).
+
+Proposée par Essid Chaker 23
+Architecture système avec le
+HSDPA
+
+Proposée par Essid Chaker 24
+Les principales améliorations de
+HSDPA
+
+Ajout de nouveaux canaux dédiés au HSDPA
+Voie descendante
+⚫ HS-DSCH (High Speed Dedicated Shared CHannel) :
+
+   Canal de transport de données à très haut débit. Il est
+   partagé entre les utilisateurs, contrairement au DCH de
+   l'UMTS qui était dédié à chacun.
+⚫ HS-SCCH (High Speed Shared Control CHannel) : Canal
+   de transport de la signalisation associée au HS-DSCH.
+⚫ HS-PDSCH (High Speed Physical Dedicated Shared
+   CHannel): Canal physique qui transporte un HS-DSCH.
+
+Proposée par Essid Chaker 25
+Les principales améliorations de
+HSDPA
+
+Voie montante:
+
+⚫ HS-PDCCH (High Speed Physical Dedicated Control CHannel) :
+    Transporte la signalisation associée au HS-PDSCH (taux de codage et CQI
+    -Channel Quality Indicator).
+
+Proposée par Essid Chaker 26
+Interface radio de HSDPA
+
+Proposée par Essid Chaker 27
+Interface radio de HSDPA
+
+⚫ Evolution de l’interface radio:
+
+Proposée par Essid Chaker 28
+HSUPA
+
+⚫ Le standard HSUPA (High Speed Uplink Packet Access) est une
+   mise à jour des réseaux WCDMA/UMTS/HSDPA.
+
+⚫ Il apporte des améliorations de type HSDPA au flux ascendant des
+   connexions et permet ainsi d’obtenir des débits de chargement
+   (upload) pouvant atteindre les 5,8 Mbps. Le HSUPA est considéré
+   comme le successeur du HSDPA qui permet d’obtenir des débits très
+   élevés mais uniquement sur le flux descendant (download).
+
+Proposée par Essid Chaker 29
+HSUPA
+
+ Technologie HSUPA:
+
+⚫ Le Consortium 3GPP, lancé en 1998, a anticipé les
+   attentes des utilisateurs et a publié les spécifications de la
+   technologie HSUPA dans la << Release 6 >> du standard
+   UMTS. Ces nouvelles définitions font suite aux
+   spécifications HSDPA (voir l'article du mois d'octobre
+   2006 d'IB com) dans la série HSPA.
+
+⚫ Pour sa part, le réseau de quatrième génération risque fort
+   d'être basé sur la norme à venir HSOPA .
+
+Proposée par Essid Chaker 30
+Architecture HSUPA
+
+Proposée par Essid Chaker 31
+Les opérateurs de technologie
+
+HSDPA
+
+ Exemple de Tunisie telecom
+
+ La 3G de Tunisie Telecom atteindra les 12 Mb/s en vitesse pratique:
+  On y voit : «+ c’est bien. ++ c’est mieux». Sans doute un clin d’œil à la 3G+
+
+    (HSDPA) d’Orange Tunisie.
+ En effet, si la vitesse de download de la 3G du nouvel opérateur est limitée à
+
+    5 Mb/s en pratique (7Mb/s en théorique), celui de Tunisie Telecom pourra
+    atteindre, par contre, les 12 Méga en pratique (21 Mb/s en théorique).
+ Pour atteindre un tel débit, l’opérateur historique est passé par la release 6 du
+    standard UMTS (3G) : le HSUPA. Ce mode de transmission radio est une
+    version évoluée et améliorée du HSDPA (3G+). C’est la raison pour
+    laquelle le HSPUA est parfois appelé 3G++.
+
+Proposée par Essid Chaker  32
+Avantage de HSDPA
+
+⚫ l'avènement du HSDPA permet aux premiers utilisateurs
+   d'effectuer des requêtes et des téléchargements depuis leur PC
+   portable.
+
+⚫ Une mise à niveau pour les réseaux / UMTS WCDMA. Il
+   double la capacité du réseau et augmente accélère cinq fois ou
+   plus les données de téléchargement.
+
+⚫ En franchissant le seuil du mégabit par seconde en situation de
+   mobilité, le HSDPA prend nettement l'avantage sur l'EDGE,
+   qui risque de faire vite figure de parent pauvre du haut débit
+   mobile.
+
+  Proposée par Essid Chaker 33
+Avantage de HSUPA
+
+❑ L'avantage du HSUPA est qu’il permet de transférer un
+   contenu de grande taille (notamment des éléments
+   multimédias) à destination des téléphones mobiles et des
+   interfaces de partage via les réseaux internet 3G.
+
+❑ Le HSUPA est une innovation qui permet la prise en
+   charge des applications Web 2.0 via le réseau mobile et
+   des pages adaptées à l'affichage. La technologie
+   d'adaptation des sites est réalisée via des plateformes de
+   développement collaboratif comme MySpace.
+
+Proposée par Essid Chaker 34
+Conclusion
+
+⚫ L’arrivée de HSDPA et de HSUPA vont permettre d’
+   élargir les possibilités de mobilité à des usages de
+   remplacement des connexions haut debit filaires .
+
+⚫ HSDPA et HSUPA sont deux nouvelles technologies et
+   avec nouveaux canaux de bonnes performances.
+
+Proposée par Essid Chaker 35
+La technologie
+       4G
+Plan  Introduction
+       Historique
+
+      Définition
+
+      Objectif
+
+      Caractéristique des systèmes 4G
+
+      Déploiement de la 4G
+
+                LTE
+
+      Architecture de LTE
+
+            Conclusion
+
+                                                                                           2
+              Introduction
+
+Aujourd’hui, les systèmes de communication sans fil sont de plus en plus présents dans notre Vie quotidienne
+et ils tendent à remplacer l’utilisation excessive des câbles. Bien que les connexions à haut-débit de
+type ADSL se multiplient dans le monde, elles ne permettent pas la souplesse d’utilisation que procure
+un réseau radio sans fil. Pour améliorer la qualité de service qu’ils offrent, les chercheurs préparent
+l’arrivée de la future génération baptisée 4ème génération (4G)
+
+                                                                                                                                  3
+      Historique de 4G
+
+▪ La 4G succède aux normes 3G et 2G.
+▪ La 2G est apparue il y a plus de 20 ans avec les premiers téléphones mobiles qui ont permis de
+
+    téléphoner, puis plus tard, d’envoyer des SMS. Le mobile a apporté la possibilité d’être joint et de rester
+    joignable à tout moment, quel que soit l’endroit où l’on se trouve.
+▪ En 2004, la 3G a permis de se connecter depuis son mobile à Internet, de lire ses mails, de consulter des
+    informations sur le web. De nouveaux types de téléphones, appelés smartphones, ainsi que de nouveaux
+    modes de consommation et de services ont vu le jour avec, par exemple, le téléchargement
+    d’applications.
+▪ À peine 10 ans plus tard, une nouvelle technologie de la génération mobile fait son apparition, le LTE
+    -Long Term Evolution - appelé plus communément 4G.
+
+                                                                                                                                    4
+          Definition
+
+• l’utilisation du terme 4G correspond à la 4ème génération des standards ou
+   de LTE ou encore de LTE-Advanced pour la téléphonie mobile.
+
+• Elle permet le «très haut débit mobile», soit des transmissions de données à
+  des débits théoriques supérieurs à 100 Mb/s, voire supérieurs à 1 Gb/s
+  (débit minimum défini par l'UIT pour les normes IMT-Advanced).
+
+• Avec la 4G, le débit va donc être multiplié par 15.
+
+                                                                                                                                      5
+                  Objectif
+
+• Un système efficace sur toute la largeur du spectre (en bits/s/Hz et en bits/s/Hz/site).
+• Grande capacité du réseau: Possibilité d'avoir plusieurs utilisateurs simultanés sur une même
+
+    cellule.
+• Un taux de transfert nominal de 100 Mbit/s quand l'utilisateur se déplace rapidement par rapport à
+
+    la cellule et 1 Gbit/s quand l'utilisateur reste en position relativement fixe par rapport à la cellule
+    selon les critères définis par l' ITU-R.
+• Un taux de transfert de données minimum de 100 Mbit/s entre deux points dans le monde.
+• Transfert doux entre des réseaux de communications hétérogènes
+• Possibilité de connexion de manière transparente et itinérante à travers de multiples réseaux.
+• Haute Qualité de Service pour les nouvelles applications multimédia (transmission audio temps
+    réel, des données à haute vitesse, des contenus vidéo Haute Définition, de la TV mobile, etc…)
+• Interopérabilité avec les normes de réseaux existants
+• Un réseau de transmission tout IP.
+
+                                                                                                                                 6
+Caractéristique des systèmes
+                      4G
+
+• Prise en charge multimédia interactives, voix, vidéo, Internet sans fil et autres services large bande.
+• Haute vitesse, haute capacité et à faible coût par bit.
+• La mobilité mondiale, la portabilité des services, réseaux mobiles évolutifs.
+• De commutation transparente, la variété de services basés sur la qualité de service (QoS: Quality of
+
+    service).
+• Une meilleure planification et des techniques de contrôle d'admission d'appel.
+
+                                                                                                                                7
+comparaisons entre3G4G et 3G 4G
+
+Bande fréquence                1.8 à 2.5 GHz            2 à 8 GHz
+
+Bande passante                 5-20 MHZ                 5-20 MHz
+
+Le débit de données            Jusqu’à 2 Mbps(384 kbps  Jusqu’à 20 Mbps ou plus
+                                            WAN)
+
+              Accéder          WideBande CDMA           MC-CDMA, OFDMA
+        Codage du canal            Turbo-code            Turbo-code, LDPC
+         communication
+Mobile des vitesses de pointe    Circuit, paquet                paquet
+                                     200km/h                   200km/h
+
+                                                                                 8
+Les standards commercialisés sous
+
+le nom 4G
+
+⚫ OFDMA: signifie Orthogonal Frequency Division
+
+Multiplexing, il s'agit d'une répartition de données
+
+sur des fréquences différentes. Cette technique est
+
+déjà utilisée dans la transmission vidéo, elle a
+
+l'avantage d'être robuste contre les effets du canal de
+
+propagation (selectivité fréquentielle).
+
+⚫ SC-FDMA (Single Carrier – Frequency Division
+   Multiple Access) for uplink
+
+⚫ MIMO  (Multiple  Input                    Multiple
+
+Output) Technologie d'antenne intelligente
+
+                                                         9
+ Le déploiemenDt dée lpa 4lGoiement de 4G
+
+L’usage de la voix ou de l’Internet sur un mobile sollicite à la fois le réseau mobile et le
+réseau fixe d’un opérateur. Les 2 réseaux, fixe et mobile, sont étroitement liés.
+
+  1/ Le mobile A émet un signal pour trouver l’antenne radio la plus proche.
+  2/ L’antenne radio 4G est reliée au réseau fixe par la fibre.
+  3/ La communication passe par le coeur de réseau et Internet lorsque celui-ci est sollicité.
+  4/ Le mobile B reçoit la communication via l’antenne 4G la plus proche de lui, elle-même reliée
+  au réseau fixe et au coeur de réseau.
+
+                                                                                                                                    10
+            Déploiement de 4G
+
+▪ pour la radio, Dans la majorité des cas, il n’y aura pas d’ajout d’antennes-relais. En revanche, les
+    antennes-relais ainsi que tous les équipements de transmission dits actifs (baies, cartes électroniques, etc.)
+    seront remplacés pour capter l’ensemble des fréquences : 2G, 3G et 4G.
+
+▪ pour la transmission de la radio, les antennes-relais doivent être reliées en fibre
+optique au coeur de réseau. En effet, les débits de la 4G sont tellement élevés que seule la fibre ou le FH
+Ethernet peut faciliter l’écoulement du trafic, jusqu’alors le plus souvent assuré par de l’ADSL ou des
+liaisons de moindre débit.
+▪ pour le coeur de réseau, la norme LTE a la particularité de ne fonctionner qu’en mode IP. Les débits de
+
+    la 4G sont tels que seule la flexibilité d’un réseau IP peut supporter ce type de technologie.
+
+                                                                                                                                     11
+LTE
+
+⚫ Le LTE (Long Term Evolution) est une évolution
+
+des               normes  de téléphonie
+
+mobile GSM/EDGE, CDMA2000,TD-SCDMA et U
+
+MTS.
+
+⚫ La norme LTE, définie par le consortium 3GPP, a
+
+d'abord été considérée comme une norme de
+
+troisième génération « 3.9G » (car proche de la 4G)
+
+Les réseaux mobiles LTE sont commercialisés sous
+
+l’appellation « 4G » par les opérateurs de nombreux
+
+pays, par exemple : Base, Mobistar en
+
+Belgique, Swisscom en Suisse, Orange, SFR et Free
+
+Mobile en France
+Le LTE utilise:
+
+⚫ des bandes de fréquences hertziennes
+
+d’une largeur pouvant varier de 1,4 MHz à 20 MHz
+
+⚫ permettant ainsi d'obtenir (pour une bande 20 MHz)
+
+un débit         binaire théorique  pouvant
+
+atteindre 300 Mbit/s en « liaison descendante »
+
+(downlink, vers le mobile)
+
+⚫ la « vraie 4G », appelée LTE Advanced offrira un débit
+   descendant pouvant atteindre1 Gbit/s
+
+⚫ ce débit nécessitera l’utilisation de bandes de fréquences
+   de 2×100 MHz de largeur qui sont définies dans les
+
+versions 10 et 11 (3GPP release 10 et 11) de la
+
+norme LTE Advanced.
+Architecture de LTE
+
+ ⚫ Les réseaux LTE sont des réseaux cellulaires constitués de
+     milliers de cellules radio qui utilisent les mêmes fréquences
+     hertziennes, y compris dans les cellules radio mitoyennes,
+     grâce aux codages radio OFDMA et SC-FDMA. Ceci permet
+     d’affecter à chaque cellule une largeur spectrale plus
+     importante qu'en 3G, variant de 3 à 20 MHz et donc d'avoir
+     une bande passante plus importante et plus de débit dans
+     chaque cellule.
+
+ ⚫ Le réseau est constitué de deux parties :
+ ❑ une partie radio (eUTRAN) et
+ ❑ un cœur de réseau « EPC » (Evolved Packet Core).
+Architecture de LTE
+La partie radio eUTRAN
+
+ ⚫ La partie radio du réseau, appelée « eUTRAN » (evolved
+     Universal Terrestrial Radio Access Network) est simplifiée,
+     comparée à celle des réseaux 2G et 3G (UTRAN), par
+     l’intégration dans les stations de base « eNode B »( C'est
+     l'équivalent du Node B dans les réseaux UMTS).
+
+ ⚫ des fonctions de contrôle qui étaient auparavant
+     implémentées dans les RNC(Radio Network Controller) des
+     réseaux 3G UMTS.
+
+ ⚫ La partie radio d’un réseau LTE se compose donc des eNode
+     B, d’antennes locales ou distantes, de liaisons en fibres
+     optiques vers les antennes distantes et des liaisons IP reliant
+     les eNode B entre eux (liens X2) et avec le cœur de réseau
+     (liens S1) via un réseau de backhaul.
+Le cœur de réseau EPC
+
+⚫ Le cœur de réseau appelé « EPC » (Evolved Packet
+   Core) utilise des technologies « full IP»
+
+⚫ basées sur les protocoles Internet pour la signalisation,
+   le transport de la voix et des données.
+
+⚫ Ce cœur de réseau permet l’interconnexion via
+   des routeurs avec les eNodeB distants, les réseaux des
+   autres opérateurs mobiles, les réseaux de téléphonie fixe
+   et le réseau Internet.
+
+⚫ L’utilisation du protocole IP de bout-en bout dans le
+   cœur de réseau permet des temps de latence réduits pour
+   l’accès internet et les appels vocaux LTE.
+               conclusion
+
+ Dans le cadre de la 4ème génération de mobile (4G),
+plusieurs technologies d’accès sans fil sont présentées à
+l’utilisateur.
+Ce dernier veut pouvoir être connecté au mieux, n’importe
+où, n’importe quand et avec n’importe quel réseau d’accès.
+Pour cela, les différentes technologies sans fil, doivent
+coexister de manière à ce que la meilleure technologie
+puisse être retenue en fonction du profil de l’utilisateur et
+de chaque type d'application et de service qu’il demande.
+
+                                                                                                                              2
+Introduction à la 5G
+
+                               Chaker.essid@fst.utm.tn
+      1
+
+Introduction
+Introduction
+
+  Limite de la 4G : beaucoup de promesses et... quelques réalités!
+               1. Une disponibilité géographique encore limitée
+               2. Les débits en téléchargement sont éloignés des promesses
+               3. Des volumes qui vont devenir insuffisants
+               4. Moins rapide
+Introduction
+
+      C’est quoi la 5G? :
+
+                     La 5G est la 5ème génération de technologie réseau mobile , successeur de la 4G ,conçue pour répondre à la très grande croissance des
+                     données et à la connectivité de la société moderne.
+                     Aprés la 2G , la 3G et la 4G ne sera pas un simple standard de plus de la téléponie mobile.
+                     C’est une veritable petite révolution qui se prépare en matiére de debit ,de capacité , de latence , de virtualisation des réseaux et d’usages .
+     2
+
+Historique
+Historique
+
+La 5G n'est pas encore définie et n'est donc pas officielle.
+
+Le terme 5G était déjà évoqué par les industriels de l'électronique dans les années 1980 ; cette technologie pourrait voir le jour vers 2020.
+
+      Début février 2018, Samsung réussissait  2019                  Développement des
+      d’ailleurs un appel vidéo 5G entre la                             terminaux 5G
+      Corée du Sud et les USA.
+                                                                   Développement
+                               La victoire
+                                                                         2020
+
+2017
+
+                                            Normalisation +
+
+                               2018         Normalisation 5G MtoM
+                                                de grand volume
+  Développement
+
+Le début des développement de
+nouvel équipements 5G par les
+constructeurs
+       3
+
+Les avantages
+     du 5G
+Avantages du 5G
+
+Plus rapide :Les débits promis dépasseront les 10 Gbit/s et permettraient de           Plus de monde connecté de façon optimale
+
+repousser les limites de nos usages en fait un test 5G réalisé en condition réelle en
+Finlande a montré une connexion 14 fois plus rapide qu’avec la 4G LTE.
+
+Plus d’objets connectés (des milliard d’objets connectés) D’ici                                                               Plus écologique : Réduit les coûts et la
+2020, 50 milliards d’objets connectés seront en fonctionnement sur                                                            consommation d’énergie
+notre planète. Le trafic va être multiplié par 1000 en dix ans.
+                                                                    Plus réactif : Quasi en temps réel pour jouer
+                                                                    en ligne et à terme, le pilotage des voitures
+                                                                    autonomes
+Avantages du 5G
+
+ le temps de téléchargement : La 5G absorbera la croissance exponentielle du trafic mobile, et rendra possible un grand nombre de cas d’usages par
+ l’amélioration des débits en mobilité et la meilleure qualité de la connexion. Elle permettra également de faire face aux besoins de l’Internet des objets qui
+ connectera des milliards d’appareils entre eux et sera le support des innovations de demain.
+         4
+
+     Les usages
+du 5G et son futur
+Les usages du 5G
+
+        La 5G offrira la rapidité et la capacité en données nécessaires au développement de nouvelles générations d’applications,
+        de services et d’opportunités commerciales inédites. Les nouvelles technologies émergentes telles que la réalité virtuelle
+        (VR) et la réalité augmentée (AR) seront accessibles à tous en mobilité.
+
+                                                               La réalité virtuelle : La réalité virtuelle (VR) fournit déjà des expériences connectées et
+
+                                                                        immersives qui étaient impossibles auparavant. Avec la 5G, la VR prendra une autre
+                                                                        dimension : il sera possible de voyager sans se déplacer, de regarder un match en ayant le
+                                                                        sentiment d’être sur le terrain, de visiter un appartement depuis son canapé, ou encore de
+                                                                        revivre le meilleur de ses vacances comme si vous y étiez de nouveau…
+Les usages du 5G
+
+       La réalité augmenté : La réalité augmentée (AR) vient déjà enrichir la réalité en y
+       superposant des informations complémentaires. Avec la 5G, les possibilités seront encore
+       plus nombreuses : après le divertissement avec les jeux vidéo, c’est la culture, l’éducation
+       mais également la médecine ou l’industrie qui vont voir leurs usages se développer.
+
+                                                                    De nouveaux formats : 4K, 8K, HDR (High Dynamic Range : imagerie à grande gamme dynamique), 360°.
+                                                                    Cela va bénéficier à tous les utilisateurs de vidéo en streaming, sur smartphone ou TV connectée. Et les
+                                                                    utilisateurs, qui filment et diffusent des vidéos en direct, qu’ils soient des particuliers ou des professionnels,
+                                                                    vont également profiter des évolutions du débit et de la capacité proposées par la 5G.
+
+                                                                               4K : un format d’image numérique ayant une définition supérieure ou égale à 4 096 pixels de large. La 4K est appelée
+                                                                               Télévision Ultra Haute Définition (TV UHD)
+                                                                               8K : un format d’image numérique ayant une définition de 7 680 pixels de large.
+                                                                               HDR : une technologie qui permet d’afficher de nombreux niveaux d’intensité lumineuse dans une image fixe ou animée
+Le futur du 5G
+
+                Le débit et la réactivité sont 2 caractéristiques qui vont permettre à
+                de nouveaux usages d’émerger. L’usage le plus marquant est celui
+                de la voiture autonome. Pour une voiture sans conducteur, il faudra
+                un réseau capable d’identifier tout obstacle sur la route en temps
+                quasi réel.
+                C’est pourquoi la voiture autonome s’appuiera sur l’extrême
+                réactivité du réseau 5G qui, à terme, atteindra des délais de
+                réponse de l’ordre de la milliseconde. En revanche, pour cet usage,
+                le débit n’aura pas un fort impact.
+Le futur du 5G
+
+La 5G avec des milliards d’objets connectés simultanément et ses nouvelles applications permettra, à terme, de développer des villes et des
+écoles intelligentes, des traceurs GPS pour objets et animaux, la domotique dans les maisons, des véhicules intelligents et plus fiables. Elle
+améliorera aussi les soins de santé et l’éducation.
+
+La 5G permettra aux entreprises de rendre leurs modes
+opératoires plus performants avec un traitement des
+données intelligent. Les entreprises opéreront et
+prendront des décisions clés basées sur les données.
+Elles pourront alors innover en agriculture avec des
+fermes intelligentes, optimiser la fabrication ce qui
+ouvrira la voie à des économies de coûts, une meilleure
+expérience client et une croissance à long terme.
+         5
+
+Le déploiement du
+          5G
+Le déploiement du 5G: les
+fréquences
+
+  L’implémentation de la 5G repose sur un ensemble de solutions techniques, qui seront mises en place progressivement.
+  Les antennes mobiles 5G utiliseront à terme 3 bandes de fréquence.
+
+                                                    La bande des 700 MHz
+
+                                                                                 Déjà utilisée par certains opérateurs pour la 4G, a l’avantage de permettre une bonne
+                                                                                 pénétration dans les bâtiments, une bonne couverture avec un débit comparable à celui que l’on
+                                                                                 connaît en 4G monobande.
+
+        La bande des 3,6 GHz (3,4 - 3,8GHz)
+
+            Elle permet une montée en débit significative, malgré une moindre
+            pénétration dans les bâtiments et une moindre portée que la bande des 700
+            MHz.
+Le déploiement du 5G: les
+fréquences
+
+   La bande des 26 GHz (24,25–27,5GHz)
+
+    C'est la fréquence la plus élevée utilisée en technologie cellulaire, elle peut apporter un débit
+    très élevé, comparable à celui du FTTH (la Fibre). En contrepartie, sa capacité de pénétration
+    des bâtiments est très faible puisqu’elle ne traverse pas les obstacles, et sa portée est limitée
+    à quelques centaines de mètres.
+
+                 A l'intérieur (1) : performance lors d'un usage réseau dans un bâtiment.
+                 Portée (2) : performance en terme de couverture.
+                 Débit (3) : performance en terme de rapidité.
+
+    Avec l’association de ces 3 bandes, les débits pourront aller jusqu’à 10 Gbit/s
+    maximum théorique.
+Le déploiement du 5G:
+déploiement
+
+            En France, Orange va piloter des tests de la 5G dans des zones déjà autorisées par l’ARCEP (Autorité de Régulation des Communications
+            Electroniques et des Postes).
+
+           Bientôt près de chez vous ?
+
+            Dès 2018, dans les villes de Lille, Douai, Marseille, à Châtillon sur le site d’Orange Gardens et sur le circuit de Linas-Monthléry.
+            En 2019, dans le quartier de Paris Opéra.
+            Les déploiements 5G vont se faire sur des sites 4G existants avec :
+
+               ● La technologie des antennes intelligentes « massive MIMO » qui crée des faisceaux directifs.
+               ● L’utilisation conjointe de plusieurs bandes de fréquences.
+            A cette étape, il n’y aura pas besoin de densifier le réseau.
+Le déploiement du 5G: Les
+antennes
+
+             Les antennes massive MIMO (multi user Multiple Input Multiple Output) qui vont être utilisées, sont dotées de plusieurs
+             canaux ou connexions qui permettent d’envoyer et recevoir plus de données simultanément.
+             Ces antennes intelligentes constituées d’un grand nombre d’antennes miniaturisées permettent d’atteindre des débits et une
+             capacité de transmission inaccessibles aujourd’hui avec la 4G.
+    L’antenne massive MIMO agit comme un phare directionnel. Le signal est dirigé dans une direction précise au lieu d’être émis dans
+    toutes les directions. L’antenne massive MIMO limite ainsi la déperdition d’énergie en émettant les ondes radio uniquement là où elles
+    sont utiles.
+    Elle permet de diriger le signal radio vers les utilisateurs et les dispositifs quand cela est nécessaire plutôt que d’émettre en
+    permanence et partout. Ainsi, les ondes superflues aux alentours des utilisateurs sont réduites considérablement, voire éliminées.
+             A terme, des sites radio additionnels pourront être ajoutés pour répondre au besoin capacitaire local ou pour déployer des
+             offres d’accès fixe sans fil.
+      6
+
+5G: Ondes et
+    Santé
+5G: Ondes et santé
+
+          Il existe plus de 3 500 publications scientifiques (études, rapports, avis...) qui portent sur
+l’ensemble des radiofréquences au niveau mondial, dont une majorité sur la téléphonie mobile.
+
+          Les autorités sanitaires internationales majeures (OMS : Organisation Mondiale de la
+Santé) et le comité scientifique de l’UE, ainsi que des autorités nationales déterminantes
+(Allemagne, France, Royaume-Uni, Canada, Espagne, Pays Nordiques...) arrivent à la même
+conclusion :
+il n’existe aucune preuve scientifique d’un risque avéré pour la santé lorsque l’exposition aux
+ondes radio est inférieure aux seuils recommandés par l’OMS.
+
+          Ces limites sont fréquemment réévaluées par ces différentes autorités sanitaires.
+5G: Ondes et santé
+
+                                                                                                        les ondes radio : Les ondes radio sont des ondes électromagnétiques se propagent e
+                                                                                                             ligne droite dans plusieurs directions. Ces ondes radio permettent le partage
+                                                                                                             d'informations. Les ondes radio sont utilisées dans différents domaines : Radio,
+                                                                                                             Téléphonie, Wifi et Télévision.
+                                                                                                        Les ondes radio de la 5G (700 Mhz et 3 500 Mhz) pour la France sont utilisées
+                                                                                                        depuis plus de cinquante ans par des services quotidiens comme la télévision.
+                                                                                                        Les ondes utilisées par la 5G sont donc les mêmes que les ondes de la télévision,
+                                                                                                        de la radio ou de la téléphonie mobile existante et d’autres services courants
+                                                                                                        comme par exemple le Pass Navigo.
+
+    Les limites d’exposition de l’OMS on été adoptées dans la majorité des pays et s’appliquent à l’ensemble des services des ondes radio. Le respect de ces
+    limites protège la population.
+
+   Les limites d’exposition pour la 5G sont de 39 Volts par mètre (V/m) à 700 MHz équivalentes à celles de la 4G et de 61 V/m à 3 500
+   MHz équivalentes à celles du Wi-Fi, de la 3G et de la 4G.
+     7
+
+Conclusion
+Conclusion
+
+                                                                                     La 5G, tout le monde en parle. On nous promet quelque chose
+                                                                                     d’extraordinaire, un avenir technologique incroyable.
+                                                                                     Mais à l’heure où la 4G n’est pas encore déployée partout, on a du mal à
+                                                                                     s’imaginer ce que pourrait être un monde connecté en 5G.
+CH 1: INTERNET DES OBJETS
+               IoT
+
+                  Fondement IoT
+                     2025/2026
+
+                   ELABORE PAR:
+                   ESSID CHAKER
+              Pourquoi l’IoT ?
+
+• Evolution naturelle des technologies : lien inévitable entre le
+  monde numérique et le monde physique, Assistance à nos
+  activités professionnelles et personnelles.
+
+• Permet une réduction considérable des dépenses dans l’
+  économie d’aujourd’hui (industrie, santé, sécurité, etc.).
+
+• L’IoT est ici et il évolue rapidement ! Il n’y a pas de temps à
+  perdre.
+
+• 50 milliards d’objets en 2020 (estimation) !
+                  M2M
+
+• L’internet des objets est aussi appelée: la
+  communication machine to machine (M2M) ,les
+  services intelligents, les objets connectés.
+
+• Les tendances du M2M:
+
+- communication avec le monde analogique de
+  façon instantanée et avec les bénéfices du
+  numérique.
+
+- la miniaturisation des terminaux : plus petits, plus
+  puissants, plus autonomes.
+
+- l’accessibilité: baisse du cout
+
+- développement des réseaux d’accès.
+Applications
+           Quelques définitions
+
+• Objet connecté : objet possédant la capacité d’échanger des données avec
+    d’autres entités physiques ou numériques.
+
+• Internet des objets (IdO) : expansion du réseau internet à des objets et/ou des
+    lieux du monde physique. En anglais, on parle d’IoT : Internet of Things.
+
+• « L’Internet des Objets est un réseau de réseaux qui permet, via des systèmes
+    d’identification électronique normalisés et unifiés, et des dispositifs mobiles sans
+    fil, d’identifier directement et sans ambiguïté des entités numériques et des objets
+    physiques et ainsi de pouvoir récupérer, stocker, transférer et traiter, sans
+    discontinuité entre les mondes physiques et virtuels, les données s’y rattachant. »
+
+• Source : L’Internet des objets de Pierre-Jean Benghozi, Sylvain Bureau et Françoise
+    Massit-Folléa (Edition MSH)
+
+• M2M : machine to machine, échange d’informations entre deux machines sans
+    intervention humaine
+• 20-30Mds d’objets connectés en 2021
+
+• En 2015 nous comptions déjà plus de 6Md d’objets connectés
+• L’échelle des objets est bien supérieure à l’échelle de l’humanité
+• Chaque objet est un système informatique autonome
+Dans chaque objets on trouve de l’électronique, mais aussi du
+code embarqué, aujourd’hui plutôt bas niveau C , demain plus haut
+niveau ( Java, C++, C#...)
+• Des problématique de communication
+Autant d’un point de vue réseau que protocole avec des
+composantes sécurité et cryptographiques
+• Pour délivrer des services
+Ce qui implique des développements web et mobile, de la base de
+données et généralement du big-data.
+• Concepts fondamentaux:
+
+• Acquisition de signaux issus du monde physique (capteurs, transcription
+   de grandeurs physiques en grandeurs électriques, puis numérisation puis
+   transmission vers des systèmes informatiques ou d’autres systèmes
+   physiques)
+
+• Action sur le monde physique (déclanchement du fonctionnement de
+   dispositifs, chauffage, extinction de feux, ouverture d’une porte, mise en
+   service d’une machine, régulation d’une grandeur physique, exécution
+   d’une tâche robotique, etc.) L’ordre peut provenir d’un système
+   informatique ou d’autres objets physiques connectés.
+  Architecture des objets connectés:
+    Les objets communiquent vers des Gateway, plusieurs gateway peuvent capter les
+    messages émis par les objets.
+
+  Chaque Gateway remontent un message enrichi vers un Cloud opérateur qui gèrent les
+    objets, le stockage des messages et communication avec les application métiers.
+
+  Le Cloud opérateur pousse ensuite les messages bruts vers l’application métier : callback
+    HTTP/S sous la forme d’une requête de type PUSH ou GET.
+    Cette interface Cloud <> Application métier est spécifique
+Monde « numérique » et monde « physique »
+
+• On désignera par « monde numérique » tous les systèmes manipulant des données
+    numérique ainsi que les réseaux permettant l’échange des données (calculateurs,
+    microcontrôleurs, serveurs informatiques, bases de données, réseaux informatiques,
+    protocoles de communication filaires ou sans fil, etc.).
+
+• On désignera par « monde physique » tous les systèmes vivants ou artificiels que
+    nous côtoyons et qui interagissent entre eux par divers effets physiques (être humains,
+    animaux, végétaux, véhicules, objets du quotidien, outils, machines diverses, outils de
+    production, etc.). Ces systèmes interagissent entre eux au moyens de grandeurs
+    physiques (forces, déplacements, variation de température ou de pression, voix, son,
+    lumière, etc.)
+
+• Attention ! Certains objets du « monde numérique » sont bien « physiques » mais ils
+    manipulent essentiellement des données (un ordinateur par exemple) et on s’intéresse
+    généralement à leur aptitude à traiter des données.
+Technologies utilisées dans l’implémentation de
+  l’IOT :
+
+• Capteurs : Détection des valeurs de
+  l’environnement.
+
+• Actionneurs : Changement des valeurs de
+  l’environnement.
+
+• Processeur : exécution et traitement des
+  instructions.
+
+• Chaine de communication : connexion au réseau.
+ Interactions : capteurs et actionneurs
+
+• De manière générale, l’IoT met en oeuvre deux types d’éléments pour interagir
+    avec le monde physique : des capteurs et des actionneurs.
+
+• Les capteurs permettent de recueillir des informations depuis le monde physique
+    et de les transmettre vers le système informatique.
+
+• Les actionneurs permettent au système informatique d’agir sur le monde physique
+    en modifiant son état.
+                Les capteurs
+
+• Ils permettent de traduire une grandeur physique en un signal électrique. Ce
+    dernier est ensuite numérisé pour être transmis au système informatique.
+
+• Par exemple : un capteur de température permet de traduire l’amplitude de la
+    température en une tension électrique. Cette dernière est numérisée puis
+    transmise.
+                Les capteurs
+
+• Grandeur communément mesurées :
+
+• Systèmes à deux états (0,1), (fermé,ouvert) (éteint,allumé),
+   etc.
+
+• Comptage d’impulsions (tachymètre), cardio-fréquencemètre,
+• Température
+• Pression
+• Luminosité
+• Position
+• vitesse
+              Les actionneurs
+
+• Ils permettent d’agir dans le monde physique, c’est-à-dire,
+  changer son état.
+
+• Par exemple : un actionneur peut allumer un appareil à
+  distance (voir l’exemple donné dans les transparents
+  précédents).
+
+• Actionneurs couramment utilisés :
+• Allumage d’un éclairage
+• Déclenchement d’un avertisseur sonore
+• Allumage d’une machine
+• Génération de mouvements (ex. servomoteur)
+• Commande de robots
+• Commande de moteurs (à courant continu, pas-à-pas, etc.)
+• Contrôle de débits (air, pression, liquides, etc.)
+Technologies utilisées dans l’implémentation de
+  l’IOT :
+
+• Les principaux standards radio:
+• WiFi
+• Bluetooth
+• ZigBee
+• WiBree ou BLE
+• 6LowPAN
+                     WiFi
+
+• IEEE: 802.11a/b/g/n/ac
+• Besoins mémoire: 1Mo +
+• Autonomie avec Pile: Jours
+• Vitesse de transfert: 11-54-108-320-1000
+
+  Mb/s
+• Portée (environ): 300m
+• Bande : 2,4 à 6 Ghz
+                  Bluetooth
+
+• IEEE: 802.15.1
+• Besoins mémoire: 250 ko +
+• Autonomie avec Pile: Mois
+• Vitesse de transfert: 1 Mb/s
+• Portée (environ): 10m
+• Bande : 2,4 à 2,5 Ghz
+                   ZigBee
+
+• IEEE: 802.15.4
+• Besoins mémoire: 4-32 ko
+• Autonomie avec Pile: Années
+• Vitesse de transfert:20-250 kb/s
+• Portée (environ): 100m
+• Bande: 868 Mhz
+                   WiBree
+
+• Basse Consommation
+• Besoins mémoire: 4-32 ko
+• Autonomie avec Pile: Années
+• Vitesse de transfert:1 Mb/s
+• Portée (environ): 10m
+• Bande : 2,4 à 2,5 Ghz
+  6LowPAN ( IPv6 Low power Wireless
+
+         Personal Area Networks)
+
+• IPv6: protocole réseau de la couche 3 du modèle
+  OSI, grâce à des adresses de 128 bits au lieu de
+  32 bits, IPv6 dispose d’un espace d’adressage
+  bien plus important qu’IPv4.
+
+• 6LowPAN: nom d’un groupe de travail de l’IETF. Il
+  défini les mécanismes d’encapsulation et de
+  compression d’entêtes permettant aux paquets
+  IPv6 d’être envoyés ou reçus.
+
+• Bande : 900 Mhz et 2,4 Ghz
+                   RFID
+
+• RFID ( Radio Frequency Identification ) : procédé
+   permettant de récupérer des données à distances grâce à
+   un système composé :
+
+- d’une radio étiquette contenant des informations.
+- d’un lecteur permettant de récupérer ces informations à
+
+   distance.
+- Fréquences utilisées :
+- Basses fréquences : 100 à 500 Khz
+- Moyennes fréquences: 10 à 15 Mhz
+- Hautes fréquences : 850-950 Mhz à 2,4-5,8 Ghz
+                   NFC
+
+L’interface NFC ( Near Field Communication )!
+Protocole basé sur une interface radio permettant une
+communication entre deux objets.
+Bande: 13,56 Mhz
+Distance: 0 et 20 cm
+Débit: 106 Kb/s et 424 Kb/s
+BANDES DE FREQUENCES
+                Contact
+
+Chaker.essid@fst.utm.tn
+RESEAUX LoRa
+&LoRaWAN
+
+                        2025/2026
+*  Essid Chaker  2
+*  Essid Chaker  3
+*  Essid Chaker  4
+*  Essid Chaker  5
+*  Essid Chaker  6
+*  Essid Chaker  7
+*  Essid Chaker  8
+*  Essid Chaker  9
+*  Essid Chaker  10
+*  Essid Chaker  11
+*  Essid Chaker  12
+*  Essid Chaker  13
+*  Essid Chaker  14
+*  Essid Chaker  15
+*  Essid Chaker  16
+*  Essid Chaker  17
+*  Essid Chaker  18
+*  Essid Chaker  19
+*  Essid Chaker  20
+*  Essid Chaker  21
+*  Essid Chaker  22
+*  Essid Chaker  23
+                                  Technologies LPWAN: SigFox
+
+• Fournit une connectivité bas débit à travers son propre réseau cellulaire basé sur la technologie radio
+Ultra Narrow Band (UNB).
+• La technologie utilise la bande ISM 868 MHz pour l’Europe/ETSI et 902 MHz pour les USA/FCC (Federal
+Communication Commissions)
+• Une portée entre 30 et 50 Km dans les zones rurales et entre 3 et 10 km dans les zones urbaines • Plus
+de 7 millions d’objets l’utilisent en fin 2015 (d’après une interview avec le PDG de SigFox)
+• Sigfox offre un débit de 100 bits par seconde
+• Un capteur muni d’un module SigFox peut envoyer jusqu’à 140 messages par jour de 12 octets (charge
+utile) chacun (adapté aux informations de monitoring) SigFox vs Lora
+
+                                                                                                                                       24
+     SigFox •
+
+■ Le réseau couvre une grande partie du territoire français et plusieurs
+   pays européens (Espagne, Pays-bas, Royaume-Uni, Portugal, etc.),
+
+■ • Quelques Services:
+
+■ – contrôler des panneaux publicitaires,
+■ – gérer le système de ventilation et de chauffage des immeubles
+
+   professionnels ou privés,
+■ – gérer des alarmes d’une maison (détecteur d’incendie, détecteur de
+
+   fuite de gaz, alarme de sécurité…),
+■ – mieux prévoir les dangers qui menacent la nature (flux d’eau, climat,
+
+   tremblement de terre, etc.)
+

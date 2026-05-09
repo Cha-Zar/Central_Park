@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: green_garden_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: green_garden
+      POSTGRES_PASSWORD: green_garden_password
+      POSTGRES_DB: green_garden
+    ports:
+      - "5432:5432"
+    volumes:
+      - green_garden_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  green_garden_postgres_data:
